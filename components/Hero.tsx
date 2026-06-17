@@ -1,5 +1,4 @@
 "use client";
-import React from 'react';
 import { gsap, useGSAP, ScrollTrigger, SplitText } from '@/lib/gsap-util';
 import { useRef } from 'react';
 
@@ -30,55 +29,55 @@ export default function Hero() {
         }
     );
 
-  return (
-    <section className="py-20 lg:py-28" ref={containerRef}>
-        <div className="container flex flex-col">
-
-            {/* wrapper */}
-            <div className="hero-wrapper">
-                <h1 className="hero-title text">
-                    train 
-                </h1>
-                <h1 className="hero-title text">
-                    today 
-                </h1>
-                <h2 className="hero-title text">
-                    move 
-                </h2>
+    return (
+        <section className="py-20 lg:py-28" ref={containerRef}>
+            <div className="container flex flex-col">
 
                 {/* wrapper */}
-                <div className="flex items-center gap-6">
+                <div className="hero-wrapper">
+                    <h1 className="hero-title text">
+                        train 
+                    </h1>
+                    <h1 className="hero-title text">
+                        today 
+                    </h1>
                     <h2 className="hero-title text">
-                        forever 
+                        move 
                     </h2>
+
+                    {/* wrapper */}
+                    <div className="flex items-center gap-6">
+                        <h2 className="hero-title text">
+                            forever 
+                        </h2>
+                        <div className="font-medium tracking-wider uppercase -space-y-1 sm:text-2xl text-neutral-800 hidden sm:block">
+                            <p className="text hero-text">
+                                sweat junkie
+                            </p>
+                            <p className="text hero-text">
+                                training dept
+                            </p>
+                            <p className="text hero-text">
+                                est 2021 
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* small text */}
                     <div className="font-medium tracking-wider uppercase -space-y-1 sm:text-2xl text-neutral-800 hidden sm:block">
-                        <p className="text hero-text">
-                            sweat junkie
+                        <p className="hero-text text">
+                            blablabla 
                         </p>
-                        <p className="text hero-text">
-                            training dept
+                        <p className="hero-text text">
+                            blablabla 
                         </p>
-                        <p className="text hero-text">
-                            est 2021 
+                        <p className="hero-text text">
+                            blablabla 
                         </p>
                     </div>
-                </div>
 
-                {/* small text */}
-                <div className="font-medium tracking-wider uppercase -space-y-1 sm:text-2xl text-neutral-800 hidden sm:block">
-                    <p className="hero-text text">
-                        blablabla 
-                    </p>
-                    <p className="hero-text text">
-                        blablabla 
-                    </p>
-                    <p className="hero-text text">
-                        blablabla 
-                    </p>
                 </div>
-
             </div>
-        </div>
-    </section>
-  )
+        </section>
+    )
 }
