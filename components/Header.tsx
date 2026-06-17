@@ -26,12 +26,12 @@ export default function Header() {
             onUpdate: (self) => {
                 self.direction === 1 ? showAnim.play() : showAnim.reverse();
             },
-            markers: true,
+            // markers: true,
         });
     }, {});
-    
+
   return (
-    <header className='header sticky top-0 left-0 bg-white/70 backdrop-blur-md w-full py-4 z-50'>
+    <header className='header sticky top-0 left-0 bg-white/70 backdrop-blur-md w-full py-4 z-50 header'>
         <div className='container flex items-center justify-between'>
             {/* logo */}
             <Link
