@@ -55,7 +55,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${clashDisplay.className} antialiased`}>
         <Header />
-        <main className="min-h-svh bg-white relative z-40 w-full">
+        <main className="min-h-[200vh] bg-white relative z-40 w-full">
           {children}
         </main>
         <Footer />
