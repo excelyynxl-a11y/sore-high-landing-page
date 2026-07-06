@@ -26,7 +26,7 @@ export default function ProductItemCard({
     useGSAP(() => {
     gsap.to(trackRef.current, {
         xPercent: -500, 
-        duration: 5, 
+        duration: 20, 
         ease: 'none',
         repeat: -1,
     });
