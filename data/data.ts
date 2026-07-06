@@ -16,7 +16,7 @@ export const navItems = [
     label: "Contact",
     href: "#contact",
   },
-];
+]; 
 
 export const productSectionItems = [
   {
@@ -97,7 +97,7 @@ export const productSectionItems = [
     ],
     price: 100
   },
-];
+]; 
 
 
 type Contact = {
