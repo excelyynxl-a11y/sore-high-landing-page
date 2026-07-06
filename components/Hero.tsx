@@ -30,7 +30,11 @@ export default function Hero() {
     );
 
     return (
-        <section className="py-20 lg:py-28" ref={containerRef}>
+        <section 
+            className="py-20 lg:py-28" 
+            ref={containerRef}
+            id="hero"
+        >
             <div className="container flex flex-col">
 
                 {/* wrapper */}
