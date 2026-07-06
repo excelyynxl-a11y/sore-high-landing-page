@@ -26,7 +26,6 @@ export default function Header() {
             onUpdate: (self) => {
                 self.direction === 1 ? showAnim.play() : showAnim.reverse();
             },
-            // markers: true,
         });
     }, {});
 

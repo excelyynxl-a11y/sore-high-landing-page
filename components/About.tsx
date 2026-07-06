@@ -14,7 +14,6 @@ export default function About() {
             scrollTrigger: {
                 trigger: '.about-wrapper',
                 start: 'top center',
-                // markers: true, 
             }
         });
 
