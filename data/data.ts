@@ -1,4 +1,4 @@
-import { Instagram, Mail, type LucideIcon } from "lucide-react";
+import { Camera, Mail, type LucideIcon } from "lucide-react";
 
 export const navItems = [
   {
@@ -112,13 +112,13 @@ export const contacts: Contact[] = [
     id: 1,
     name: "@sorehigh__",
     link: "https://www.instagram.com/sorehigh__/",
-    icon: Instagram,
+    icon: Camera,
   },
   {
     id: 2,
     name: "@aziz_moham3d",
     link: "https://www.instagram.com/aziz_moham3d/",
-    icon: Instagram,
+    icon: Camera,
   }, 
   {
     id: 3,
