@@ -214,7 +214,7 @@ export const testimonialItems = [
     instagramLink: "https://www.instagram.com/ckchok7/",
     desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
   },
-  {
+  { 
     id: 5,
     img: "/images/Testimonial/aziz.png",
     name: "Aziz",
