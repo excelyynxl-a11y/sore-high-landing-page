@@ -1,4 +1,4 @@
-import { Camera, Mail, type LucideIcon } from "lucide-react";
+import { Backpack, Camera, Code, Mail, Phone, type LucideIcon } from "lucide-react";
 
 export const navItems = [
   {
@@ -107,7 +107,7 @@ type Contact = {
   icon: LucideIcon;
 }; 
 
-export const contacts: Contact[] = [
+export const sorehighContacts: Contact[] = [
   {
     id: 1,
     name: "@sorehigh__",
@@ -122,8 +122,53 @@ export const contacts: Contact[] = [
   }, 
   {
     id: 3,
-    name: "aziz_email@gmail.com",
+    name: "mailto:aziz_email@gmail.com",
     link: "",
     icon: Mail,
   }, 
+  {
+    id: 4,
+    name: "Whatsapp",
+    link: "https://wa.me/60193709781",
+    icon: Phone,
+  },
 ];
+
+export const excelContacts: Contact[] = [
+  {
+    id: 1,
+    name: "Instagram",
+    link: "https://www.instagram.com/excel_is_ex/",
+    icon: Camera,
+  },
+  {
+    id: 2,
+    name: "Portfolio",
+    link: "https://my-portfolio-pi-sand-52.vercel.app/",
+    icon: Camera,
+  }, 
+  {
+    id: 3,
+    name: "Email",
+    link: "mailto:excelyynxl@gmail.com",
+    icon: Mail,
+  },
+  {
+    id: 4,
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/excelyynx-lim-177973304/",
+    icon: Backpack,
+  },
+  {
+    id: 5,
+    name: "Whatsapp",
+    link: "tel:+601128805868",
+    icon: Phone,
+  },
+  {
+    id: 6,
+    name: "Github",
+    link: "https://github.com/excelyynxl-a11y",
+    icon: Code,
+  },
+]
