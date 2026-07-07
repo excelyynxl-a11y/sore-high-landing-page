@@ -3,16 +3,43 @@ import { gsap, useGSAP, SplitText } from '@/lib/gsap-util';
 import { testimonialItems } from '@/data/data';
 import { ArrowBigLeft, ArrowBigRight } from 'lucide-react';
 import Image from 'next/image';
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 export default function Testimonials() {
   const [index, setIndex] = useState(0);
+  const [direction, setDirection] = useState(1);
   const item = testimonialItems[index];
   const total = testimonialItems.length;
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const contentRef = useRef<HTMLDivElement | null>(null);
+  const isFirstRender = useRef(true);
 
-  const prev = () => setIndex((i) => (i - 1 + total) % total);
-  const next = () => setIndex((i) => (i + 1) % total);
+  // prev = swipe left
+  const prev = () => {
+    setDirection(-1);
+    setIndex((i) => (i - 1 + total) % total);
+  };
+
+  // next = swipe right
+  const next = () => {
+    setDirection(1);
+    setIndex((i) => (i + 1) % total);
+  };
+
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+
+    if (contentRef.current) {
+      gsap.fromTo(
+        contentRef.current,
+        { x: direction * 60, opacity: 0 },
+        { x: 0, opacity: 1, duration: 1, ease: 'power2.out' }
+      );
+    }
+  }, [index, direction]);
 
   useGSAP(() => {
     const textSplit = SplitText.create('.testimonial-text', {
@@ -71,7 +98,10 @@ export default function Testimonials() {
         {/* wrapper */}
         <div className="border mt-16 lg:mt-24 divide-y">
           {/* content */}
-          <div className="grid gap-5 lg:grid-cols-[0.8fr_1fr] lg:items-center p-6">
+          <div
+            ref={contentRef}
+            className="grid gap-5 lg:grid-cols-[0.8fr_1fr] lg:items-center p-6"
+          >
             {/* image */}
             <div className="relative group">
               <Image 
