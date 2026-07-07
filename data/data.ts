@@ -173,6 +173,60 @@ export const excelContacts: Contact[] = [
   },
 ];
 
+export const testimonialItems = [
+  {
+    id: 1,
+    img: "/images/Testimonial/yassin.png",
+    name: "Yassin",
+    role: "Everyday athlete",
+    product: "WEight LIFTing",
+    instagramHandle: "@yassinmnoor",
+    instagramLink: "https://www.instagram.com/yassinmnoor/",
+    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+  },
+  {
+    id: 2,
+    img: "/images/Testimonial/xinhui.png",
+    name: "Ah Hui",
+    role: "Kaki Mabuk",
+    product: "Train Now Move Forever",
+    instagramHandle: "@ismehui",
+    instagramLink: "https://www.instagram.com/ismehui/",
+    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+  },
+  {
+    id: 3,
+    img: "/images/Testimonial/grace.png",
+    name: "Grace",
+    role: "Pro Dodgeball Player",
+    product: "Run Your Own Race",
+    instagramHandle: "@qqiantongg",
+    instagramLink: "https://www.instagram.com/qqiantongg/",
+    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+  },
+  {
+    id: 4,
+    img: "/images/Testimonial/ck.png",
+    name: "CK",
+    role: "Everyday Athlete",
+    product: "Eat Your Greens",
+    instagramHandle: "@ckchok7",
+    instagramLink: "https://www.instagram.com/ckchok7/",
+    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+  },
+  {
+    id: 5,
+    img: "/images/Testimonial/aziz.png",
+    name: "Aziz",
+    role: "CTBB Head Coach",
+    product: "Lifting Dept.",
+    instagramHandle: "@aziz_moham3d",
+    instagramLink: "https://www.instagram.com/aziz_moham3d/",
+    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+  },
+
+];
+
 export const workedWithParties = [
   {
     id: 1,
