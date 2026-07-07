@@ -7,7 +7,7 @@ import React from 'react'
 export default function WorkedWith() {
   return (
     <section className="py-20 mb-[70vh]">
-      <div>
+      <div> 
         <p className="text-xl font-medium text-center uppercase mb-9">
           Worked with some of the best 'sore highs' out there
         </p>
