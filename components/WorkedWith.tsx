@@ -10,7 +10,7 @@ export default function WorkedWith() {
       <div> 
         <p className="text-xl font-medium text-center uppercase mb-9">
           Worked with some of the best sore highs out there
-        </p>
+        </p> 
 
         {/* logo wrapper */}
         <div className="">
