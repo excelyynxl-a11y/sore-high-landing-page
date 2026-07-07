@@ -177,7 +177,7 @@ export const faqItems = [
   },
   {
     id: 3,
-    question: "Can i customize a unique design?",
+    question: "Can i customize my unique design?",
     answer: "Dm Aziz duh u dumbass."
   },
   {
@@ -188,6 +188,11 @@ export const faqItems = [
   {
     id: 5,
     question: "What material are these TShirt made of?",
+    answer: "Dm Aziz duh u dumbass."
+  },
+  {
+    id: 6,
+    question: "How do i make my payment?",
     answer: "Dm Aziz duh u dumbass."
   },
 
