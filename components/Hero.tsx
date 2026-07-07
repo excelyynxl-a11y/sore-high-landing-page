@@ -70,13 +70,13 @@ export default function Hero() {
                     {/* small text */}
                     <div className="font-medium tracking-wider uppercase -space-y-1 sm:text-2xl text-neutral-800 hidden sm:block">
                         <p className="hero-text text">
-                            blablabla 
+                            move with purpose 
                         </p>
                         <p className="hero-text text">
-                            blablabla 
+                            move with style 
                         </p>
                         <p className="hero-text text">
-                            blablabla 
+                            move with intention 
                         </p>
                     </div>
 
