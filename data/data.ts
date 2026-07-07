@@ -108,7 +108,7 @@ type Contact = {
 }; 
 
 export const sorehighContacts: Contact[] = [
-  {
+  { 
     id: 1,
     name: "@sorehigh__",
     link: "https://www.instagram.com/sorehigh__/",
