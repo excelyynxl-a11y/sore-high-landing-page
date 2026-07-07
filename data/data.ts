@@ -171,4 +171,22 @@ export const excelContacts: Contact[] = [
     link: "https://github.com/excelyynxl-a11y",
     icon: Code,
   },
-]
+];
+
+export const workedWithParties = [
+  {
+    id: 1,
+    label: "Sore High",
+    img: "/images/SoreHighLogo/sore_high_logo.png",
+  },
+  {
+    id: 2,
+    label: "Crossfit Train by Blackbox",
+    img: "/images/SoreHighLogo/ctbb_logo.png",
+  },
+  {
+    id: 3,
+    label: "Out Of Office Run Club",
+    img: "/images/SoreHighLogo/ooof_logo.png",
+  },
+];
