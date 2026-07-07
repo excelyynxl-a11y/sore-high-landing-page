@@ -189,7 +189,7 @@ export const testimonialItems = [
     img: "/images/Testimonial/xinhui.png",
     name: "Ah Hui",
     role: "Kaki Mabuk",
-    product: "Train Now Move Forever",
+    product: "Train Today Move Forever",
     instagramHandle: "@ismehui",
     instagramLink: "https://www.instagram.com/ismehui/",
     desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
