@@ -73,7 +73,7 @@ export default function Testimonials() {
           {/* content */}
           <div className="grid gap-5 lg:grid-cols-[0.8fr_1fr] lg:items-center p-6">
             {/* image */}
-            <div className="">
+            <div className="relative group">
               <Image 
                 src={item.img}
                 alt={item.name}
@@ -81,6 +81,7 @@ export default function Testimonials() {
                 height={965}
                 className="w-full h-full object-cover testimonial-img [clip-path:polygon(0%_0%,100%_0%,100%_0%,0%_0%)]"
               />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300" />
             </div>
 
             {/* content */}
