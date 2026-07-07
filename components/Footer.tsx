@@ -17,6 +17,7 @@ import { excelContacts } from '@/data/data';
                   {excelContacts.slice(0, 3).map((contact) => (
                     <a 
                       href={contact.link} 
+                      target="_blank"
                       className="uppercase hover:underline" 
                       key={contact.id}
                     >
@@ -27,7 +28,8 @@ import { excelContacts } from '@/data/data';
                 <div className="grid gap-1">
                   {excelContacts.slice(3, 6).map((contact) => (
                     <a 
-                      href={contact.link} 
+                      href={contact.link}
+                      target="_blank" 
                       className="uppercase hover:underline" 
                       key={contact.id}
                     >
@@ -69,7 +71,11 @@ import { excelContacts } from '@/data/data';
               <div className="mt-4 text-sm">
                 <p>
                   Email: {"  "} 
-                  <a href="mailto:excelyynxl@gmail.com" className="hover:underline">
+                  <a 
+                    href="mailto:excelyynxl@gmail.com" 
+                    target="_blank"
+                    className="hover:underline"
+                  >
                     excelyynxl@gmail.com
                   </a>
                 </p>
