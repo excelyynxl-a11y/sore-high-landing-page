@@ -9,7 +9,7 @@ export default function WorkedWith() {
     <section className="py-20 mb-[70vh]">
       <div> 
         <p className="text-xl font-medium text-center uppercase mb-9">
-          Worked with some of the best 'sore highs' out there
+          Worked with some of the best sore highs out there
         </p>
 
         {/* logo wrapper */}
