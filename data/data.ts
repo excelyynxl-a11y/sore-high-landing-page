@@ -4,17 +4,17 @@ export const navItems = [
   {
     id: 1,
     label: "Home",
-    href: "/",
+    sectionId: "",
   },
   {
     id: 3,
     label: "Product",
-    href: "#products",
+    sectionId: "products",
   },
   {
     id: 4,
     label: "Contact",
-    href: "#contact",
+    sectionId: "contact",
   },
 ]; 
 
@@ -107,71 +107,8 @@ type Contact = {
   icon: LucideIcon;
 }; 
 
-export const sorehighContacts: Contact[] = [
-  { 
-    id: 1,
-    name: "@sorehigh__",
-    link: "https://www.instagram.com/sorehigh__/",
-    icon: Camera,
-  },
-  {
-    id: 2,
-    name: "@aziz_moham3d",
-    link: "https://www.instagram.com/aziz_moham3d/",
-    icon: Camera,
-  }, 
-  {
-    id: 3,
-    name: "mailto:aziz_email@gmail.com",
-    link: "",
-    icon: Mail,
-  }, 
-  {
-    id: 4,
-    name: "Whatsapp",
-    link: "https://wa.me/60193709781",
-    icon: Phone,
-  },
-];
 
-export const excelContacts: Contact[] = [
-  {
-    id: 1,
-    name: "Instagram",
-    link: "https://www.instagram.com/excel_is_ex/",
-    icon: Camera,
-  },
-  {
-    id: 2,
-    name: "Portfolio",
-    link: "https://my-portfolio-pi-sand-52.vercel.app/",
-    icon: Camera,
-  }, 
-  {
-    id: 3,
-    name: "Email",
-    link: "mailto:excelyynxl@gmail.com",
-    icon: Mail,
-  },
-  {
-    id: 4,
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/excelyynx-lim-177973304/",
-    icon: Backpack,
-  },
-  {
-    id: 5,
-    name: "Whatsapp",
-    link: "tel:+601128805868",
-    icon: Phone,
-  },
-  {
-    id: 6,
-    name: "Github",
-    link: "https://github.com/excelyynxl-a11y",
-    icon: Code,
-  },
-];
+
 
 export const testimonialItems = [
   {
@@ -227,6 +164,62 @@ export const testimonialItems = [
 
 ];
 
+export const faqItems = [
+  {
+    id: 1,
+    question: "How do i order a shirt?",
+    answer: "Dm Aziz duh u dumbass."
+  },
+  {
+    id: 2,
+    question: "Is there crop option?",
+    answer: "Dm Aziz duh u dumbass."
+  },
+  {
+    id: 3,
+    question: "Can i customize a unique design?",
+    answer: "Dm Aziz duh u dumbass."
+  },
+  {
+    id: 4,
+    question: "Is there pick-up or shipping option?",
+    answer: "Dm Aziz duh u dumbass."
+  },
+  {
+    id: 5,
+    question: "What material are these TShirt made of?",
+    answer: "Dm Aziz duh u dumbass."
+  },
+
+];
+
+export const sorehighContacts: Contact[] = [
+  { 
+    id: 1,
+    name: "@sorehigh__",
+    link: "https://www.instagram.com/sorehigh__/",
+    icon: Camera,
+  },
+  {
+    id: 2,
+    name: "@aziz_moham3d",
+    link: "https://www.instagram.com/aziz_moham3d/",
+    icon: Camera,
+  }, 
+  {
+    id: 3,
+    name: "mailto:aziz_email@gmail.com",
+    link: "",
+    icon: Mail,
+  }, 
+  {
+    id: 4,
+    name: "Whatsapp",
+    link: "https://wa.me/60193709781",
+    icon: Phone,
+  },
+]; 
+
 export const workedWithParties = [
   {
     id: 1,
@@ -242,5 +235,44 @@ export const workedWithParties = [
     id: 3,
     label: "Out Of Office Run Club",
     img: "/images/SoreHighLogo/ooof_logo.png",
+  },
+];
+
+export const excelContacts: Contact[] = [
+  {
+    id: 1,
+    name: "Instagram",
+    link: "https://www.instagram.com/excel_is_ex/",
+    icon: Camera,
+  },
+  {
+    id: 2,
+    name: "Portfolio",
+    link: "https://my-portfolio-pi-sand-52.vercel.app/",
+    icon: Camera,
+  }, 
+  {
+    id: 3,
+    name: "Email",
+    link: "mailto:excelyynxl@gmail.com",
+    icon: Mail,
+  },
+  {
+    id: 4,
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/excelyynx-lim-177973304/",
+    icon: Backpack,
+  },
+  {
+    id: 5,
+    name: "Whatsapp",
+    link: "tel:+601128805868",
+    icon: Phone,
+  },
+  {
+    id: 6,
+    name: "Github",
+    link: "https://github.com/excelyynxl-a11y",
+    icon: Code,
   },
 ];
