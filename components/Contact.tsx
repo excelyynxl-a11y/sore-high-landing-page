@@ -64,12 +64,12 @@ export default function Contact() {
             Place your orders, DMs, collaboration or borak
           </p>
 
-          <div>
+          <div className="mt-8 border rounded-xl pt-2 pb-2 pl-8 sm:p-6 bg-white transition-shadow duration-300 hover:shadow-lg">
             <div className="space-y-1.5 pb-5 pt-5">
               <div className="flex space-x-5">
-                <Camera />
+                <Camera className="hover:text-purple-500"/>
                 <div className="">
-                  <h3 className="text-xl uppercase font-medium text">
+                  <h3 className="hover:text-purple-500 text-xl uppercase font-medium text">
                       Instagram
                   </h3>
                   <a 
@@ -79,6 +79,7 @@ export default function Contact() {
                   >
                       @sorehigh__
                   </a>
+                  {" "}
                   <a 
                       className="max-w-md text hover:underline"
                       href="https://www.instagram.com/aziz_moham3d/"
@@ -92,9 +93,9 @@ export default function Contact() {
 
             <div className="space-y-1.5 pb-5 pt-5">
               <div className="flex space-x-5">
-                <MessageCircle />
+                <MessageCircle className="hover:text-green-500"/>
                 <div className="">
-                  <h3 className="text-xl uppercase font-medium text">
+                  <h3 className="hover:text-green-500 text-xl uppercase font-medium text">
                       Whatsapp
                   </h3>
                   <a 
@@ -110,9 +111,9 @@ export default function Contact() {
 
             <div className="space-y-1.5 pb-5 pt-5">
               <div className="flex space-x-5">
-                <MailIcon />
+                <MailIcon className="hover:text-red-500"/>
                 <div className="">
-                  <h3 className="text-xl uppercase font-medium text">
+                  <h3 className="hover:text-red-500 text-xl uppercase font-medium text">
                       Email
                   </h3>
                   <a 
@@ -128,9 +129,9 @@ export default function Contact() {
 
             <div className="space-y-1.5 pb-5 pt-5">
               <div className="flex space-x-5">
-                <PhoneCall />
+                <PhoneCall className="hover:text-blue-500"/>
                 <div className="">
-                  <h3 className="text-xl uppercase font-medium text">
+                  <h3 className="hover:text-blue-500 text-xl uppercase font-medium text">
                       Phone
                   </h3>
                   <a 
