@@ -198,30 +198,31 @@ export const faqItems = [
 
 ];
 
-export const sorehighContacts: Contact[] = [
+// for reference only
+export const sorehighContacts = [
   { 
     id: 1,
+    contactType: "instagram",
     name: "@sorehigh__",
     link: "https://www.instagram.com/sorehigh__/",
-    icon: Camera,
   },
   {
     id: 2,
+    contactType: "instagram",
     name: "@aziz_moham3d",
     link: "https://www.instagram.com/aziz_moham3d/",
-    icon: Camera,
   }, 
   {
     id: 3,
-    name: "mailto:aziz_email@gmail.com",
-    link: "",
-    icon: Mail,
+    contactType: "email",
+    name: "aziz_email@gmail.com",
+    link: "mailto:aziz_email@gmail.com",
   }, 
   {
     id: 4,
-    name: "Whatsapp",
+    contactType: "Whatsapp",
+    name: "60193709781 (Aziz)",
     link: "https://wa.me/60193709781",
-    icon: Phone,
   },
 ]; 
 
@@ -230,54 +231,51 @@ export const workedWithParties = [
     id: 1,
     label: "Sore High",
     img: "/images/SoreHighLogo/sore_high_logo.png",
+    link: "#",
   },
   {
     id: 2,
     label: "Crossfit Train by Blackbox",
     img: "/images/SoreHighLogo/ctbb_logo.png",
+    link: "https://www.crossfittrainblackbox.com/",
   },
   {
     id: 3,
     label: "Out Of Office Run Club",
     img: "/images/SoreHighLogo/ooof_logo.png",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfSXCzLfXp0fBXFeKRBJ_rYCujT8bCzC87cbZrvvGbmh3MTww/viewform?pli=1",
   },
 ];
 
-export const excelContacts: Contact[] = [
+export const excelContacts = [
   {
     id: 1,
     name: "Instagram",
     link: "https://www.instagram.com/excel_is_ex/",
-    icon: Camera,
   },
   {
     id: 2,
     name: "Portfolio",
     link: "https://my-portfolio-pi-sand-52.vercel.app/",
-    icon: Camera,
   }, 
   {
     id: 3,
     name: "Email",
     link: "mailto:excelyynxl@gmail.com",
-    icon: Mail,
   },
   {
     id: 4,
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/excelyynx-lim-177973304/",
-    icon: Backpack,
   },
   {
     id: 5,
     name: "Whatsapp",
-    link: "tel:+601128805868",
-    icon: Phone,
+    link: "https://wa.me/601128805868",
   },
   {
     id: 6,
     name: "Github",
     link: "https://github.com/excelyynxl-a11y",
-    icon: Code,
   },
 ];

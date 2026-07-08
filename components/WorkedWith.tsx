@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function WorkedWith() {
   return (
-    <section className="py-20 mb-[70vh]">
+    <section className="py-20 mb-[10vh]">
       <div> 
         <p className="text-xl font-medium text-center uppercase mb-9">
           Worked with some of the best sore highs out there
@@ -16,18 +16,23 @@ export default function WorkedWith() {
         <div className="">
           <Marquee autoFill={true}>
             {workedWithParties.map((party) => (
-              <div 
-                className="px-9 lg:px-16" 
-                key={party.id}
+              <a 
+                href={party.link}
+                target="_blank"
               >
-                <Image 
-                  src={party.img}
-                  alt={party.label}
-                  width={140}
-                  height={39}
-                  className="w-full h-auto"
-                />
-              </div>
+                <div 
+                  className="px-9 lg:px-16 hover:" 
+                  key={party.id}
+                >
+                  <Image 
+                    src={party.img}
+                    alt={party.label}
+                    width={140}
+                    height={39}
+                    className="w-full h-auto transition-transform duration-300 hover:scale-110 hover:drop-shadow-lg"
+                  />
+                </div>
+              </a>
             ))} 
           </Marquee>
         </div>
