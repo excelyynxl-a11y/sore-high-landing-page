@@ -5,7 +5,7 @@ https://sore-high.vercel.app/
 This landing page is for SoreHigh shirt. Since it is not a registered buisiness under Malaysia law, there is no SSM, buisiness finance account. This is page is purely for people to browse SoreHigh products, available models / cuttings / color, manually contact the seller (Aziz) via Whatsapp to place their order.
 
 ## SHLP flow
-1. Header
+1. Header    
 - Consist of SoreHigh logo, 3 buttons (Home, Product, Contact) and 'Stalk Us' button
 - Each of the 3 button is clickable and directs user to the respective section (Home > Header + Hero section, Product > Product section, Contact > Contact section). 
 - The 'Stalk Us' button direct user to SoreHigh official instagram link.
