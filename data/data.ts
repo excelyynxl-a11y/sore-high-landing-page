@@ -104,6 +104,9 @@ export const productSectionItems = [
     img: [
         "/images/KelabJasmani/kelab_jasmani_black_white.png",
         "/images/KelabJasmani/kelab_jasmani_white_black.png",
+        "/images/KelabJasmani/kelab_jasmani_black_white.png",
+        "/images/KelabJasmani/kelab_jasmani_white_black.png",
+        "/images/KelabJasmani/kelab_jasmani_black_white.png",
     ],
     price: 100
   },
