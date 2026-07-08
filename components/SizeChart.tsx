@@ -56,7 +56,7 @@ export default function SizeChart() {
 
           {/* small text */}
           <p className="max-w-96 uppercase font-medium mt-2 md:hidden sizechart-text">
-            Size curated to for all hustlers
+            Size curated for all hustlers
           </p>
         </div>
 
