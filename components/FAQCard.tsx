@@ -32,7 +32,7 @@ export default function FAQCard({
 
             <div
                 className={`
-                    grid transition-[grid-template-rows,opacity] duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
+                    grid transition-[grid-template-rows,opacity] duration-500 ease-in-out
                     ${isExpanded ? 'grid-rows-[1fr] opacity-100 mt-4' : 'grid-rows-[0fr] opacity-0'}
                 `}
             >
