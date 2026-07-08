@@ -97,6 +97,16 @@ export const productSectionItems = [
     ],
     price: 100
   },
+  {
+    id: 7,
+    title: "Kelab Jasmani",
+    text: "Pukul Pendidikan Jasmani dah sampai yahoo!",
+    img: [
+        "/images/KelabJasmani/kelab_jasmani_black_white.png",
+        "/images/KelabJasmani/kelab_jasmani_white_black.png",
+    ],
+    price: 100
+  },
 ]; 
 
 
