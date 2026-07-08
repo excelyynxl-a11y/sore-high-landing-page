@@ -81,7 +81,7 @@ export default function SizeChart() {
         <div className=" mt-3 flex items-center gap-3 pt-2 border-t border-neutral-200">
           <ShareButton 
             title="Sore High T-Shirt Size Chart"
-            text="Check out the Sore High size chart and find your fit."
+            text="👕 Check out the Sore High size chart and find your fit 💪"
             url={shareUrl}
           />
         </div>

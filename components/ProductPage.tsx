@@ -181,7 +181,7 @@ export default function ProductPage({
                         <span className="text-xs uppercase tracking-widest text-neutral-400 mr-auto">Share</span>
                         <ShareButton
                             title={itemTitle}
-                            text={`Check out ${itemTitle} by Sore High!`}
+                            text={`👀 Check out ${itemTitle} by Sore High! ❤️‍🔥`}
                             url={currentUrl}
                         />
                         <CopyLinkButton url={currentUrl} />
