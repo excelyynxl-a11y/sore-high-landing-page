@@ -41,18 +41,12 @@ export default function About() {
                         <p className="uppercase text-xl md:px-7 font-medium overflow-hidden text mb-2 sm:mb-0 text">
                             about 
                         </p>
-                        <h2 className="text-xl sm:text-2xl lg:text-5xl overflow-hidden text">
-                            SoreHigh is a XXXXXXXXXXXX 
-                        </h2>
                     </div>
 
                     {/* text wrapper */}
                     <div className="text-xl sm:text-2xl lg:text-5xl text">
                         <p className="">
-                            zzzzzzz zzz zzzzzzzzzz zz zzzz 
-                            zzzzzz zzzzzzz zzzzzzzzzz zz zzzz
-                            zz zzzzzzz zz zz zzzz
-                            zzzzzzz zzzzzzzzzzzz zz.
+                            Sore High is a training label built for those who show up. Born from sweat, reps, and the culture of moving with intention — every piece we make is designed to carry the weight of your grind and still look sharp when you walk out the door. No hype. Just honest gear for people who earn it.
                         </p>
                     </div>
                 </div>
