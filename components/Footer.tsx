@@ -41,7 +41,7 @@ import { excelContacts } from '@/data/data';
 
               {/* text */}
               <p className="max-w-xs text-sm opacity-80 mb-3">
-                  We design and build thoughtful digital experiences focused on clarity, 
+                  This website is developed by Excelyynx. We design and build thoughtful digital experiences focused on clarity, 
                   performance and long-term impact.
               </p>
 
