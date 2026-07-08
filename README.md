@@ -1,21 +1,5 @@
-## SoreHigh Instagram 
-https://www.instagram.com/sorehigh__/ 
-
-## Aziz Instagram 
-https://www.instagram.com/aziz_moham3d/
-
-## Aziz Whatsapp
-https://wa.me/60193709781
-
-## Excelyynx Instagram
-https://www.instagram.com/excel_is_ex/
-
-## Excelyynx Vercel Portfolio
-https://my-portfolio-pi-sand-52.vercel.app/
-
-## Excelyynx GitHub
-https://github.com/excelyynxl-a11y
-
+## SoreHigh Live on Vercel 
+https://sore-high.vercel.app/
 
 ## Sore High Landing Page (SHLP)
 This landing page is for SoreHigh shirt. Since it is not a registered buisiness under Malaysia law, there is no SSM, buisiness finance account. This is page is purely for people to browse SoreHigh products, available models / cuttings / color, manually contact the seller (Aziz) via Whatsapp to place their order.
