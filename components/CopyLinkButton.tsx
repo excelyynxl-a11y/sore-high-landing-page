@@ -7,7 +7,7 @@ interface CopyLinkButtonProps {
 }
 
 export default function CopyLinkButton({ 
-    url 
+  url 
 }: CopyLinkButtonProps) {
   const [isCopied, setIsCopied] = useState<boolean>(false);
 
@@ -32,9 +32,10 @@ export default function CopyLinkButton({
   return (
     <button 
       onClick={handleCopy}
+      className="inline-flex items-center gap-2 px-4 py-2 border border-neutral-300 text-sm font-medium uppercase tracking-widest text-neutral-700 hover:bg-neutral-100 hover:border-neutral-400 transition-colors"
     >
-        <Copy /> 
-        {isCopied ? '✓ Copied!' : 'Copy Link'}
+        <Copy size={14} /> 
+        {isCopied ? 'Copied!' : 'Copy Link'}
     </button>
   );
 };

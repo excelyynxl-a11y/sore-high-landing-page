@@ -10,14 +10,14 @@ interface ShareButtonProps {
 }
 
 export default function ShareButton({ 
-    title,
-    text,
-    url,
+  title,
+  text,
+  url,
 }: ShareButtonProps) {
   const [copied, setCopied] = useState<boolean>(false);
 
   const handleShare = async (): Promise<void> => {
-    // 1. Check if the browser supports the native Web Share API
+    // Check if the browser supports the native Web Share API
     if (navigator.share) {
       try {
         await navigator.share({
@@ -33,7 +33,7 @@ export default function ShareButton({
         }
       }
     } else {
-      // 2. Fallback: Copy link to clipboard if Web Share API is missing
+      // Fallback: Copy link to clipboard if Web Share API is missing
       try {
         await navigator.clipboard.writeText(url);
         setCopied(true);
@@ -48,9 +48,10 @@ export default function ShareButton({
   return (
     <button
       onClick={handleShare}
+      className="inline-flex items-center gap-2 px-4 py-2 border border-neutral-300 text-sm font-medium uppercase tracking-widest text-neutral-700 hover:bg-neutral-100 hover:border-neutral-400 transition-colors"
     >
-        <Share />
-        Share
+        <Share size={14} />
+        {copied ? 'Copied!' : 'Share'}
     </button>
   );
 };
