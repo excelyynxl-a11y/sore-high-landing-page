@@ -161,6 +161,16 @@ export const testimonialItems = [
     instagramLink: "https://www.instagram.com/aziz_moham3d/",
     desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
   },
+  { 
+    id: 6,
+    img: "/images/Testimonial/kangyong.png",
+    name: "Bryan",
+    role: "Everyday Athlete",
+    product: "Im Fine",
+    instagramHandle: "@kanggyonggggg",
+    instagramLink: "https://www.instagram.com/kanggyonggggg/",
+    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+  },
 
 ];
 
