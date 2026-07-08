@@ -1,10 +1,16 @@
 "use client";
 import { gsap, useGSAP, SplitText } from '@/lib/gsap-util';
 import Image from 'next/image';
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
+import ShareButton from './ShareButton';
 
 export default function SizeChart() {
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const [shareUrl, setShareUrl] = useState("");
+
+  useEffect(() => {
+    setShareUrl(`${window.location.origin}/images/SizeChart/size_chart.png`);
+  }, []);
 
   useGSAP(() => {
     const textSplit = SplitText.create('.sizechart-text', {
@@ -68,6 +74,15 @@ export default function SizeChart() {
             width={500}
             height={800}
             className="w-full h-full object-cover sizechart-img [clip-path:polygon(0%_0%,100%_0%,100%_0%,0%_0%)]"
+          />
+        </div>
+
+        {/* share button */}
+        <div className=" mt-3 flex items-center gap-3 pt-2 border-t border-neutral-200">
+          <ShareButton 
+            title="Sore High T-Shirt Size Chart"
+            text="Check out the Sore High size chart and find your fit."
+            url={shareUrl}
           />
         </div>
       </div> 
