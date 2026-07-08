@@ -225,7 +225,8 @@ export const sorehighContacts = [
   {
     id: 3,
     contactType: "email",
-    name: "aziz_email@gmail.com",
+    // name: "aziz_email@gmail.com",
+    name: "isz_ue@yahoo.com",
     link: "mailto:aziz_email@gmail.com",
   }, 
   {

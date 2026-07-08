@@ -118,10 +118,12 @@ export default function Contact() {
                   </h3>
                   <a 
                     className="max-w-md text hover:underline"
-                    href="mailto:aziz_email@gmail.com"
+                    // href="mailto:aziz_email@gmail.com"
+                    href="mailto:isz_ue@yahoo.com"
                     target="_blank"
                   >
-                      aziz_email@gmail.com
+                      {/* aziz_email@gmail.com */}
+                      isz_ue@yahoo.com
                   </a>
                 </div>
               </div>
