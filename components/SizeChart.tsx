@@ -3,6 +3,7 @@ import { gsap, useGSAP, SplitText } from '@/lib/gsap-util';
 import Image from 'next/image';
 import { useRef, useState, useEffect } from 'react';
 import ShareButton from './ShareButton';
+import DownloadButton from './DownloadButton';
 
 export default function SizeChart() {
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -83,6 +84,11 @@ export default function SizeChart() {
             title="Sore High T-Shirt Size Chart"
             text="👕 Check out the Sore High size chart and find your fit 💪"
             url={shareUrl}
+          />
+
+          <DownloadButton 
+            url={shareUrl}
+            filename="sore-high-size-chart.png"
           />
         </div>
       </div> 
