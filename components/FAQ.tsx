@@ -37,7 +37,7 @@ export default function FAQ() {
   }, { scope: containerRef });
 
   return (
-      <section className="section" ref={containerRef}>
+      <section className="section mb-[10vh]" ref={containerRef}>
         <div className="container">
           {/* title */}
           <div className="sm:mx-auto faq-wrapper">
@@ -58,7 +58,7 @@ export default function FAQ() {
           </div>
 
           {/* faq card container */}
-          <div className="space-y-4 sm:space-y-5 mt-16 lg:mt-24">
+          <div className="space-y-4 sm:space-y-5 mt-10 lg:mt-24">
             {faqItems.map((item) => (
               <FAQCard 
                 key={item.id}

@@ -72,7 +72,7 @@ export default function Testimonials() {
   }, { scope: containerRef });
 
   return (
-    <section className="section" ref={containerRef}>
+    <section className="section mb-[10vh]" ref={containerRef}>
       <div className="container">
         {/* title */}
         <div className="sm:mx-auto testimonial-wrapper">
