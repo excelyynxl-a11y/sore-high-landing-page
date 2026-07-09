@@ -1,4 +1,3 @@
-import { Backpack, Camera, Code, Mail, Phone, type LucideIcon } from "lucide-react";
 
 export const navItems = [
   {
@@ -112,17 +111,6 @@ export const productSectionItems = [
   },
 ]; 
 
-
-type Contact = {
-  id: number;
-  name: string;
-  link: string;
-  icon: LucideIcon;
-}; 
-
-
-
-
 export const testimonialItems = [
   {
     id: 1,
@@ -191,32 +179,32 @@ export const faqItems = [
   {
     id: 1,
     question: "How do i order a shirt?",
-    answer: "Dm Aziz duh u dumbass."
+    answer: "You can click on the 'Interested? Preorder Now' button which will direct you to @aziz Whatsapp. Here, you can start asking for your preferred color, cutting, size and model of the TShirt you'll like to order. You can conviniently copy and paste the link to reference the product you're interested in by clicking on the 'Copy Link' button." 
   },
   {
     id: 2,
     question: "Is there crop option?",
-    answer: "Dm Aziz duh u dumbass."
+    answer: "Crop option are limited to certain colors and models. Do check with @aziz via Whatsapp to confirm the stock available."
   },
   {
     id: 3,
     question: "Can i customize my unique design?",
-    answer: "Dm Aziz duh u dumbass."
+    answer: "Depends. This is not guaranteed and greatly depends on @sorehigh capacity and supplier. Nevertheless, feel free to request via Whatsapp for any special custmisation."
   },
   {
     id: 4,
     question: "Is there pick-up or shipping option?",
-    answer: "Dm Aziz duh u dumbass."
+    answer: "Yes, both pick-up and doorstep delivery are available. Do make an appointment if pick-up is preferred."
   },
   {
     id: 5,
     question: "What material are these TShirt made of?",
-    answer: "Dm Aziz duh u dumbass."
+    answer: "230 gsm soft fabric, pre-shrunk, 100% natural cotton, Oeko-tex certified."
   },
   {
     id: 6,
     question: "How do i make my payment?",
-    answer: "Dm Aziz duh u dumbass."
+    answer: "E-wallet or bank transfer are accepted."
   },
 
 ];
