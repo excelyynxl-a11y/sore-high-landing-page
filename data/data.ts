@@ -120,7 +120,7 @@ export const testimonialItems = [
     product: "WEight LIFTing",
     instagramHandle: "@yassinmnoor",
     instagramLink: "https://www.instagram.com/yassinmnoor/",
-    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+    desc: "The 230 gsm cotton hits different. Boxy fit, solid neck line, and it actually keeps its shape after a ton of washes. This is my go-to tee for heavy sessions.",
   },
   {
     id: 2,
@@ -130,7 +130,7 @@ export const testimonialItems = [
     product: "Train Today Move Forever",
     instagramHandle: "@ismehui",
     instagramLink: "https://www.instagram.com/ismehui/",
-    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+    desc: "Soft, breathable, and the back print still looks crisp after outdoor runs. Love how the message hits — train hard now, keep moving forever.",
   },
   {
     id: 3,
@@ -140,7 +140,7 @@ export const testimonialItems = [
     product: "Run Your Own Race",
     instagramHandle: "@qqiantongg",
     instagramLink: "https://www.instagram.com/qqiantongg/",
-    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+    desc: "Bold colours and a clean cut that actually feels good to train in. Sore High tees have this quiet confidence — you put it on and you just want to move.",
   },
   {
     id: 4,
@@ -150,7 +150,7 @@ export const testimonialItems = [
     product: "Eat Your Greens",
     instagramHandle: "@ckchok7",
     instagramLink: "https://www.instagram.com/ckchok7/",
-    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+    desc: "The graphics are fun without being try-hard, and the fabric is heavy enough to feel premium. Great for gym days and lazy rest days.",
   },
   { 
     id: 5,
@@ -160,17 +160,27 @@ export const testimonialItems = [
     product: "Lifting Dept.",
     instagramHandle: "@aziz_moham3d",
     instagramLink: "https://www.instagram.com/aziz_moham3d/",
-    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+    desc: "As a coach, I live in training gear. This tee is breathable under load, doesn't cling when you sweat, and the design reps the lifting culture properly.",
   },
   { 
     id: 6,
+    img: "/images/Testimonial/ex.png",
+    name: "Excelyynx",
+    role: "Academic Slave",
+    product: "Murph Skelo",
+    instagramHandle: "@excel_is_ex",
+    instagramLink: "https://www.instagram.com/excel_is_ex/",
+    desc: "No brainer tshirt choice, whether if I'm training, competing, casual - literally anything under the sun. Stylish and comfy is always a GenZ priority :)",
+  },
+  { 
+    id: 7,
     img: "/images/Testimonial/kangyong.png",
     name: "Bryan",
     role: "Everyday Athlete",
     product: "Im Fine",
     instagramHandle: "@kanggyonggggg",
     instagramLink: "https://www.instagram.com/kanggyonggggg/",
-    desc: "Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur. Dua biskut telur dua biskut telur dua biskut telur dua biskut telur dua biskut telur.",
+    desc: "Cut-off fits perfectly through the shoulders and leaves room where you need it. Comfortable for conditioning, and the 'I'm Fine' print always gets goo retableness.",
   },
 
 ];
