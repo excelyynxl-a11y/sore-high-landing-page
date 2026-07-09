@@ -120,7 +120,7 @@ export const testimonialItems = [
     product: "WEight LIFTing",
     instagramHandle: "@yassinmnoor",
     instagramLink: "https://www.instagram.com/yassinmnoor/",
-    desc: "The 230 gsm cotton hits different. Boxy fit, solid neck line, and it actually keeps its shape after a ton of washes. This is my go-to tee for heavy sessions.",
+    desc: "Good training fit always hits different. Boxy fit, solid neck line keeps its shape after a ton of washes. This is my go-to tee for heavy sessions.",
   },
   {
     id: 2,
@@ -180,7 +180,7 @@ export const testimonialItems = [
     product: "Im Fine",
     instagramHandle: "@kanggyonggggg",
     instagramLink: "https://www.instagram.com/kanggyonggggg/",
-    desc: "Cut-off fits perfectly through the shoulders and leaves room where you need it. Comfortable for conditioning, and the 'I'm Fine' print always gets goo retableness.",
+    desc: "Cut-off fits perfectly through the shoulders and leaves room where you need it. Comfortable for conditioning, and the 'I'm Fine' print always gets to relatable.",
   },
 
 ];
