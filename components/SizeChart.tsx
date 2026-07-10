@@ -85,11 +85,6 @@ export default function SizeChart() {
             text="👕 Check out the Sore High size chart and find your fit 💪"
             url={shareUrl}
           />
-
-          <DownloadButton 
-            url={shareUrl}
-            filename="sore-high-size-chart.png"
-          />
         </div>
       </div> 
     </section>
