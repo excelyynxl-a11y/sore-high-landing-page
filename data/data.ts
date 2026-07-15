@@ -251,9 +251,9 @@ export const sorehighContacts = [
 export const workedWithParties = [
   {
     id: 1,
-    label: "Sore High",
-    img: "/images/SoreHighLogo/sore_high_logo.png",
-    link: "#",
+    label: "Borneo Pangazou",
+    img: "/images/SoreHighLogo/borneo_pangazou.png",
+    link: "https://www.instagram.com/borneopangazou/",
   },
   {
     id: 2,
