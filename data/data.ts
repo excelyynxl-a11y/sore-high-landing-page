@@ -208,8 +208,8 @@ export const faqItems = [
   },
   {
     id: 5,
-    question: "What material are these TShirt made of?",
-    answer: "230 gsm soft fabric, pre-shrunk, 100% natural cotton, Oeko-tex certified."
+    question: "What material are TShirt made of?",
+    answer: "260gsm oversized-drop shoulder 100% combed cotton (heavy cotton)"
   },
   {
     id: 6,
